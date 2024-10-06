@@ -17,16 +17,16 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 12345   # integer value, dont use ""
-    API_HASH = "awew"
-    TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "SAlTAM4"
-    SUPPORT_CHAT = 'StrawhatTeam'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'StrawhatUpdates' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001543354286  #Prints any new group the bot is added to, prints just the name and ID.
+    API_ID = 22257865  # integer value, dont use ""
+    API_HASH = "97fc23c20e06f411abbf36cad8e118ce"
+    TOKEN = "7485188715:AAHWzABR9i42D3djt4OctymUguUMVBAYZkA"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1647602447  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "itachi_ztx"
+    SUPPORT_CHAT = 'ANIME_CHAT_GROUP_ZTX'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = 'ANIME_CHAT_GROUP_ZTX' #Your own channel for Updates of bot, Do not add @
+    JOIN_LOGGER = -1002210286036  #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
-    EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    EVENT_LOGS = -1002210286036 #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
